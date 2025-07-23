@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Toro Support Hub</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      background: #FAFAFA;
+      color: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 400px;
+      width: 100%;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px 0 rgba(160, 31, 37, 0.08), 0 1.5px 2.5px rgba(0,0,0,0.04);
+      text-align: center;
+      padding: 2rem 1.5rem 2.5rem 1.5rem;
+    }
+    .logo {
+      width: 120px;
+      margin: 0 auto 1.25rem;
+      display: block;
+    }
+    h1 {
+      color: #A01F25;
+      font-size: 1.45rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.01em;
+    }
+    .subtitle {
+      font-size: 0.95rem;
+      color: #444;
+      margin-bottom: 1.8rem;
+      line-height: 1.5;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background: #F7F7F7;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #222;
+      padding: 0.85rem 1.15rem;
+      margin-bottom: 0.85rem;
+      font-size: 1.03rem;
+      font-weight: 500;
+      box-shadow: 0 1px 3px rgba(160,31,37,0.03);
+      border: 1px solid #eee;
+      transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .btn:hover, .btn:focus {
+      background: #F2EDED;
+      border-color: #A01F25;
+      box-shadow: 0 2px 8px rgba(160,31,37,0.08);
+      color: #A01F25;
+    }
+    .btn svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-right: 0.85rem;
+      fill: #A01F25;
+      flex-shrink: 0;
+      transition: fill 0.2s;
+    }
+    .btn:hover svg, .btn:focus svg {
+      fill: #A01F25;
+    }
+    .footer {
+      font-size: 0.82rem;
+      color: #999;
+      margin-top: 2.2rem;
+      opacity: 0.8;
+      letter-spacing: 0.01em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="image3" alt="Toro Logo" class="logo" />
+
+    <!-- Title + Product info -->
+    <h1>Welcome to Your Toro Support Hub</h1>
+    <div class="subtitle">
+      <strong>Product:</strong> Toro TimeCutter MX5060<br/>
+      <strong>Serial #:</strong> 45678923
+    </div>
+
+    <!-- Links -->
+    <a href="https://www.toro.com/en/parts" class="btn">
+      <svg viewBox="0 0 24 24">
+        <path d="M19 4h-4.18C14.4 2.84 13.3 2 12 2s-2.4.84-2.82 2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-7 0c.55 0 1 .45 1 1h-2c0-.55.45-1 1-1zm7 14H5V6h14v12z"/>
+      </svg>
+      Parts & Manual Lookup
+    </a>
+
+    <a href="https://www.toro.com/en/Locator" class="btn">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+      </svg>
+      Find a Dealer Near You
+    </a>
+
+    <a href="https://www.toro.com/en/customer-support" class="btn">
+      <svg viewBox="0 0 24 24">
+        <path d="M21 8V7l-3 2-2-1-5 5 6 6 5-5-1-2 2-3h-1zM3 5v14h14l4 4V1L3 5z"/>
+      </svg>
+      Service & Support Info
+    </a>
+
+    <div class="footer">
+      &copy; 2025 Toro Company. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
